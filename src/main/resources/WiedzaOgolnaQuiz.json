@@ -1,0 +1,27 @@
+[
+  {
+    "pytanie": "Ile liter ma polski alfabet:",
+    "a": "24",
+    "b": "30",
+    "c": "26",
+    "d": "36",
+    "prawidlowaOdpowiedz": "c"
+  },
+  {
+    "pytanie": "Ktora planeta znajduje sie najblizej slonca ",
+    "a": "Merkury",
+    "b": "Mars",
+    "c": "Wenus",
+    "d": "Saturn",
+    "prawidlowaOdpowiedz": "a"
+  },
+  {
+    "pytanie": "Sekwana plynie przez:  ",
+    "a": "Rzym",
+    "b": "Paryz",
+    "c": "Wenecje",
+    "d": "Madryt",
+    "prawidlowaOdpowiedz": "b"
+  }
+
+]

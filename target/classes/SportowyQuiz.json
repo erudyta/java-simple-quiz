@@ -1,0 +1,27 @@
+[
+  {
+    "pytanie": "Pierwszy mistrz polski w pilce noznej to:",
+    "a": "LKS",
+    "b": "Cracovia",
+    "c": "Legia Warszawa",
+    "d": "Pogon Lwow",
+    "prawidlowaOdpowiedz": "b"
+  },
+  {
+    "pytanie": "Najbardziej utytulowanym klubem na swiecie jest? ",
+    "a": "Barcelona",
+    "b": "Club Nacional",
+    "c": "Real Madryt",
+    "d": "Al Ahly FC",
+    "prawidlowaOdpowiedz": "d"
+  },
+  {
+    "pytanie": "Sportowcem roku zostal/a: ",
+    "a": "Robert Lewandowski",
+    "b": "Kamil Stoch",
+    "c": "Iga Swiatek",
+    "d": "Bartosz Zmarzlik",
+    "prawidlowaOdpowiedz": "c"
+  }
+
+]

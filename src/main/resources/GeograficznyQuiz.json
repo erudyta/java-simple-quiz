@@ -1,0 +1,27 @@
+[
+  {
+    "pytanie": "Grenlandia jest terytorium autonomicznym. Od kogo jest zależna?",
+    "a": "Kanady",
+    "b": "Wielkiej Brytanii",
+    "c": "USA",
+    "d": "Danii",
+    "prawidlowaOdpowiedz": "d"
+  },
+  {
+    "pytanie": "Stolica Australii jest: ",
+    "a": "Canberra",
+    "b": "Sydney",
+    "c": "Melbourne",
+    "d": "Perth",
+    "prawidlowaOdpowiedz": "a"
+  },
+  {
+    "pytanie": "Najdluzsze rzeka w Europie jest: ",
+    "a": "Dunaj",
+    "b": "Wołga",
+    "c": "Wisla",
+    "d": "Ural",
+    "prawidlowaOdpowiedz": "b"
+  }
+
+]
