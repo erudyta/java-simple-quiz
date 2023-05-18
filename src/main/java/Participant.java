@@ -1,26 +1,38 @@
 public class Participant {
     private String name;
-    private int score=0;
+    private Score score;
 
-    public Participant(String name){
-        this.name = name;
+    private Participant(ParticipantBuilder participantBuilder){
+        this.name = participantBuilder.name;
+        this.score = participantBuilder.score;
     }
 
     public String getName(){
         return name;
     }
 
-    public int getScore(){
+    public Score getScore(){
         return score;
     }
 
-    public void setScore(int score) {
-        this.score = score;
-    }
+    public static class ParticipantBuilder{
+        private String name;
+        private Score score;
 
-    public void dodajPunkt(){
-        score++;
-    }
+        public ParticipantBuilder setName(String name){
+            this.name = name;
+            return this;
+        }
 
+        public  ParticipantBuilder setScore(Score score){
+            this.score = score;
+            return this;
+        }
+
+        public Participant build(){
+            return new Participant(this);
+        }
+
+    }
 
 }

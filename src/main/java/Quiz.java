@@ -16,7 +16,6 @@ public class Quiz {
         //System.out.println(file);
     }
 
-
     public void play() throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ilu jest uczestników konkursu? ");
@@ -40,14 +39,14 @@ public class Quiz {
                 System.out.println("Odpowiedz uczestnika " + name +": ");
                 String answer = scanner.nextLine();
                 if (answer.equals(question.getPrawidlowaOdpowiedz())){
-                    participants.get(i).dodajPunkt();
+                    participants.get(i).getScore().dodajPunkt();
                 }
             }
             System.out.println("Prawidlowa odpopwiedz: " + question.getPrawidlowaOdpowiedz());
             System.out.println("Aktualna punktacja: ");
             for (int i = 0; i <= participants.size() -1; i++) {
                 String name = participants.get(i).getName();
-                System.out.println(name +": " + participants.get(i).getScore());
+                System.out.println(name +": " + participants.get(i).getScore().getScore());
             }
             Thread.sleep(3000);
         }
@@ -61,7 +60,7 @@ public class Quiz {
         for (int i = 1; i < numberOfParticipant + 1; i++) {
             System.out.println("Imie " + i + " uczestnika: ");
             name = scanner.nextLine();
-            Participant participant = new Participant(name);
+            Participant participant = new Participant.ParticipantBuilder().setName(name).setScore(new Score()).build();
             participants.add(participant);
         }
         return participants;
